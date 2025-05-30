@@ -1,7 +1,11 @@
 # Qwen2.5-VL SFT + RAFT
 The SFT part is modified from [Qwen2-VL](https://github.com/2U1/Qwen2-VL-Finetune).
 
-Here the its README part:
+``scripts_raft'' folder contains some shell scripts related to the RAFT process under different settings, and you can refer to the called .py files (mainly in the ``src_raft'' folder).
+
+``scripts_eval'' folder contains some shell scripts related to evaluation on downstream benchmarks (MathVista and MathVerse), and you can refer to the called .py files (mainly in the ``src_eval'' folder).
+
+Here is the its original README:
 
 # Fine-tuning Qwen2-VL Series
 
