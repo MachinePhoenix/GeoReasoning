@@ -1,5 +1,5 @@
 # Qwen2.5-VL SFT + RAFT
-The SFT part is modified from [Qwen2-VL](https://github.com/2U1/Qwen2-VL-Finetune).
+The SFT part is modified from [Qwen2-VL](https://github.com/2U1/Qwen2-VL-Finetune), while the inference part is implemented with VLLM.
 
 ## scripts_raft & src_raft
 "scripts_raft" folder contains some shell scripts related to the RAFT process under different settings, and you can refer to the .py files. These files are mainly in the "src_raft" folder. But some of them (for example, 'caption_generation_llamafactory_ray.py') are called under the path "LLaMA-Factory/scripts", although we also copy them into the "src_raft" folder.
@@ -10,7 +10,7 @@ The SFT part is modified from [Qwen2-VL](https://github.com/2U1/Qwen2-VL-Finetun
 \
 \
 \
-Here is the its original README:
+Here is the original README of [Qwen2-VL](https://github.com/2U1/Qwen2-VL-Finetune):
 
 # Fine-tuning Qwen2-VL Series
 
