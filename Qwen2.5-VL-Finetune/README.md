@@ -10,7 +10,6 @@ The SFT part is modified from [Qwen2-VL](https://github.com/2U1/Qwen2-VL-Finetun
 
 
 \\
-
 Here is the its original README:
 
 # Fine-tuning Qwen2-VL Series
