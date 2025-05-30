@@ -1,3 +1,8 @@
+# Qwen2.5-VL SFT + RAFT
+The SFT part is modified from [Qwen2-VL](https://github.com/2U1/Qwen2-VL-Finetune).
+
+Here the its README part:
+
 # Fine-tuning Qwen2-VL Series
 
 This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) and [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) with only using HuggingFace and [Liger-Kernel](https://github.com/linkedin/Liger-Kernel).
