@@ -1,16 +1,17 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
 
-<div align="center">
-  <img src="figs/mmmu_bar.jpg" width="80%" alt="mmmu" />
-</div>
+
 <div align="center">
   <img src="figs/ex1.png" width="28%" alt="ex1" />
   <img src="figs/ex2.png" width="30%" alt="ex2" />
   <img src="figs/ex3.png" width="25%" alt="ex3" />
 </div>
 <div align="center">
-  <img src="figs/mathvista_scaling.jpg" width="40%" alt="mathvista" />
-  <img src="figs/mathverse_scaling.jpg" width="40%" alt="mathverse" />
+  <img src="figs/mmmu_bar.jpg" width="90%" alt="mmmu" />
+</div>
+<div align="center">
+  <img src="figs/mathvista_scaling.jpg" width="45%" alt="mathvista" />
+  <img src="figs/mathverse_scaling.jpg" width="45%" alt="mathverse" />
 </div>
 <hr>
 <div align="center" style="line-height: 1;">
