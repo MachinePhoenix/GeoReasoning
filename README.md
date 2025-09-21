@@ -1,8 +1,14 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
 
 <p align="center">
    <a href="https://machinephoenix.github.io/GeoReasoning_blog/"><i class="fas fa-file-pdf" style="color: #e74c3c; margin-right: 5px;"></i> Blog</a> &nbsp&nbsp
+📑 <a href="https://machinephoenix.github.io/GeoReasoning_blog/">Blog</a> &nbsp&nbsp
   📑 <a href="https://arxiv.org/abs/2509.15217">Paper</a> &nbsp&nbsp
   🤗 <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning">Hugging Face</a>
 </p>
