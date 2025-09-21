@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <p align="center">
-   <a href="https://machinephoenix.github.io/GeoReasoning_blog/"><i class="fas fa-code" style="color: #e74c3c; margin-right: 5px;"></i> Blog</a> &nbsp&nbsp
+   <a href="https://machinephoenix.github.io/GeoReasoning_blog/"><i class="fas fa-file-pdf" style="color: #e74c3c; margin-right: 5px;"></i> Blog</a> &nbsp&nbsp
   📑 <a href="https://arxiv.org/abs/2509.15217">Paper</a> &nbsp&nbsp
   🤗 <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning">Hugging Face</a>
 </p>
