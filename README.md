@@ -42,7 +42,13 @@ To be continued soon.
 
 # RLVR
 The training pipeline is:
-![](figs/raft.jpg)
+<div align="center">
+  <img src="figs/raft.jpg" width="80%" alt="raft" />
+</div>
+where the reward modeling is shown below:
+<div align="center">
+  <img src="figs/reward.jpg" width="80%" alt="reward" />
+</div>
 
 
 Our implementation is built upon [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), a very strong codebase for fine-tuning and RL.
