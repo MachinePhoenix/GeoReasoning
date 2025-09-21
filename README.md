@@ -37,6 +37,10 @@
 This repository contains the official implementation for the GeoReasoning dataset and training framework, which significantly enhances multimodal reasoning capabilities in AI systems, particularly for geometric problem solving.
 
 # Data Generation
+The data generation pipeline is shown below:
+<div align="center">
+  <img src="figs/generation.jpg" width="80%" alt="generation" />
+</div>
 
 To be continued soon.
 
