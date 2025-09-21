@@ -18,12 +18,6 @@
 * 🌐 Achieves significant gains beyond geometry - boosting performance in non-geometric math tasks (2.8-4.8%) and non-mathematical domains like art & engineering (2.4-3.9%).
 * ⚡ Built from 50 basic relations, enabling unlimited complexity expansion for diverse geometry problems.
 
-<div align="center">
-  <img src="figs/ex1.png" width="28%" alt="ex1" />
-  <img src="figs/ex2.png" width="30%" alt="ex2" />
-  <img src="figs/ex3.png" width="25%" alt="ex3" />
-</div>
-
 
 <div align="center">
   <img src="figs/mmmu_bar.jpg" width="90%" alt="mmmu" />
@@ -40,6 +34,13 @@ This repository contains the official implementation for the GeoReasoning datase
 The data generation pipeline is shown below:
 <div align="center">
   <img src="figs/generation.jpg" width="80%" alt="generation" />
+</div>
+
+Some generated samples are exhibited here:
+<div align="center">
+  <img src="figs/ex1.png" width="28%" alt="ex1" />
+  <img src="figs/ex2.png" width="30%" alt="ex2" />
+  <img src="figs/ex3.png" width="25%" alt="ex3" />
 </div>
 
 To be continued soon.
