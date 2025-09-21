@@ -1,7 +1,4 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
-
-*An Automatic Geometry Data Synthesis Tool*
-
 <p align="center">
   📑 <a href="https://machinephoenix.github.io/GeoReasoning_blog/">Blog</a>
   📑 <a href="https://arxiv.org/abs/2509.15217">Paper</a> &nbsp&nbsp | &nbsp&nbsp 
