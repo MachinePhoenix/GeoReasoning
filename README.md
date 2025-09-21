@@ -43,7 +43,7 @@ Some generated samples are exhibited here:
   <img src="figs/ex3.png" width="25%" alt="ex3" />
 </div>
 
-To be continued soon.
+The code will be released very soon.
 
 # RLVR
 The training pipeline is:
