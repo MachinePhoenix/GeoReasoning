@@ -1,14 +1,13 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
 <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
+<link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+<link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+<link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="./static/css/index.css">
 
 <p align="center">
-   <a href="https://machinephoenix.github.io/GeoReasoning_blog/"><i class="fas fa-file-pdf" style="color: #e74c3c; margin-right: 5px;"></i> Blog</a> &nbsp&nbsp
-📑 <a href="https://machinephoenix.github.io/GeoReasoning_blog/">Blog</a> &nbsp&nbsp
+  📑 <a href="https://machinephoenix.github.io/GeoReasoning_blog/">Blog</a> &nbsp&nbsp
   📑 <a href="https://arxiv.org/abs/2509.15217">Paper</a> &nbsp&nbsp
   🤗 <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning">Hugging Face</a>
 </p>
@@ -38,30 +37,8 @@
 This repository contains the official implementation for the GeoReasoning dataset and training framework, which significantly enhances multimodal reasoning capabilities in AI systems, particularly for geometric problem solving.
 
 # Data Generation
-For data generation
-You can install the environment with this:
-```
-conda env create -f llava.yml
-```
 
-## Data Generation
-To generate data, you can run:
-```
-cd data
-python generate_datasets_multiprocess-reinforce.py
-```
-
-After downloading or runing data synthesis script, the organization of data in `./data` are expected to be as following
-
-```
-└── AutoGeo
-    ├── dataset_reinforce_100k
-    │   ├── img
-    |   └── data.json
-    └── dataset_test
-        ├── img
-        └── data.json
-```
+To be continued soon.
 
 ## Quick Start With AutoGeo
 
