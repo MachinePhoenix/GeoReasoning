@@ -2,7 +2,14 @@
 
 *An Automatic Geometry Data Synthesis Tool*
 
-# Environment
+This repository contains the official implementation for the GeoReasoning dataset and training framework, which significantly enhances multimodal reasoning capabilities in AI systems, particularly for geometric problem solving.
+
+* 📊 GeoReasoning delivers high-quality image-caption pairs that outperform all counterparts on downstream benchmarks with superior scaling.
+* 🌐 Achieves significant gains beyond geometry - boosting performance in non-geometric math tasks (2.8-4.8%) and non-mathematical domains like art & engineering (2.4-3.9%).
+* ⚡ Built from 50 basic relations, enabling unlimited complexity expansion for diverse geometry problems.
+
+# Data Generation
+For data generation
 You can install the environment with this:
 ```
 conda env create -f llava.yml
