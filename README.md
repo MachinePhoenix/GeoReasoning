@@ -40,6 +40,9 @@ This repository contains the official implementation for the GeoReasoning datase
 
 To be continued soon.
 
+# RLVR
+Our implementation is built upon [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
+
 ## Quick Start With AutoGeo
 
 <details>
