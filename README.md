@@ -1,17 +1,24 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
 
+*An Automatic Geometry Data Synthesis Tool*
+
 <p align="center">
   📑 <a href="https://machinephoenix.github.io/GeoReasoning_blog/">Blog</a>
   📑 <a href="https://arxiv.org/abs/2509.15217">Paper</a> &nbsp&nbsp | &nbsp&nbsp 
-  🤗 <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp 
+  🤗 <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning">Hugging Face</a>
 </p>
+
+# Introduction
+
+* 📊 GeoReasoning delivers high-quality image-caption pairs that outperform all counterparts on downstream benchmarks with superior scaling.
+* 🌐 Achieves significant gains beyond geometry - boosting performance in non-geometric math tasks (2.8-4.8%) and non-mathematical domains like art & engineering (2.4-3.9%).
+* ⚡ Built from 50 basic relations, enabling unlimited complexity expansion for diverse geometry problems.
 
 <div align="center">
   <img src="figs/ex1.png" width="28%" alt="ex1" />
   <img src="figs/ex2.png" width="30%" alt="ex2" />
   <img src="figs/ex3.png" width="25%" alt="ex3" />
 </div>
-
 
 
 <div align="center">
@@ -21,17 +28,6 @@
   <img src="figs/mathvista_scaling.jpg" width="45%" alt="mathvista" />
   <img src="figs/mathverse_scaling.jpg" width="45%" alt="mathverse" />
 </div>
-
-
-*An Automatic Geometry Data Synthesis Tool*
-
-
-# Introduction
-
-* 📊 GeoReasoning delivers high-quality image-caption pairs that outperform all counterparts on downstream benchmarks with superior scaling.
-* 🌐 Achieves significant gains beyond geometry - boosting performance in non-geometric math tasks (2.8-4.8%) and non-mathematical domains like art & engineering (2.4-3.9%).
-* ⚡ Built from 50 basic relations, enabling unlimited complexity expansion for diverse geometry problems.
-
 
 
 This repository contains the official implementation for the GeoReasoning dataset and training framework, which significantly enhances multimodal reasoning capabilities in AI systems, particularly for geometric problem solving.
