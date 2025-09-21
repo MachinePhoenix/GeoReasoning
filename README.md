@@ -107,7 +107,21 @@ uv run --prerelease=allow llamafactory-cli train examples/train_lora/llama3_lora
 
 
 ## QuickStart
-Gemma3-Infer contains all the necessary code.
+Gemma3-Infer contains all necessary codes for SFT and VLLM inference.
+
+```
+└── Gemma3-Infer
+    ├── scripts_raft
+    │   └── run_raft_*.sh
+    ├── scripts_eval
+    │   ├── eval_mathvista_*.sh
+    |   └── eval_mathverse_*.sh
+    ├── src_raft
+    │   ├── caption_generation_llamafactory_ray.py
+    |   └── caption_reward.py
+    └── src_eval
+       └── reasoning_rewarding_ray.py
+```
 
 ### scripts_raft & src_raft
 "scripts_raft" folder contains some shell scripts related to the RAFT process under different settings, and you can refer to the .py files. These files are mainly in the "src_raft" folder. But some of them (for example, 'caption_generation_llamafactory_ray.py') are called under the path "LLaMA-Factory/scripts", although we also copy them into the "src_raft" folder.
