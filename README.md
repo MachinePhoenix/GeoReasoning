@@ -1,7 +1,7 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
 <p align="center">
    <img alt="Homepage"
-    src="figs/ex2.png" style="width: 500px; height: auto;"/><a href="https://machinephoenix.github.io/GeoReasoning_blog/">Blog</a> &nbsp&nbsp
+    src="figs/ex2.png" style="width: 20px; height: auto;"/><a href="https://machinephoenix.github.io/GeoReasoning_blog/">Blog</a> &nbsp&nbsp
   📑 <a href="https://arxiv.org/abs/2509.15217">Paper</a> &nbsp&nbsp
   🤗 <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning">Hugging Face</a>
 </p>
