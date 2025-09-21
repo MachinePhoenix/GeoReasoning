@@ -41,11 +41,14 @@ This repository contains the official implementation for the GeoReasoning datase
 To be continued soon.
 
 # RLVR
+The training pipeline is:
+![](figs/raft.jpg)
+
+
 Our implementation is built upon [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), a very strong codebase for fine-tuning and RL.
 
-## Quick Start
 
-### Installation
+## Installation
 We adopt the installation of LLaMA-Factory.
 
 > [!IMPORTANT]
@@ -93,71 +96,13 @@ uv run --prerelease=allow llamafactory-cli train examples/train_lora/llama3_lora
 </details>
 
 
-### QuickStart
+## QuickStart
 Gemma3-Infer contains all the necessary code.
 
-The structure of the code is:
-├── data_generation/          # Code for dataset generation (under active organization)
-├── rlvr_optimization/        # Reinforcement Learning with Verifiable Rewards implementation
-├── images/                   # Place all project images here
-│   └── framework.png         # Main framework diagram
-├── configs/                  # Configuration files
-├── outputs/                  # Training outputs and results
-└── README.md
+### scripts_raft & src_raft
+"scripts_raft" folder contains some shell scripts related to the RAFT process under different settings, and you can refer to the .py files. These files are mainly in the "src_raft" folder. But some of them (for example, 'caption_generation_llamafactory_ray.py') are called under the path "LLaMA-Factory/scripts", although we also copy them into the "src_raft" folder.
+
+### scripts_eval & src_eval
+"scripts_eval" folder contains some shell scripts related to evaluation on downstream benchmarks (MathVista and MathVerse), and you can refer to the called .py files (mainly in the "src_eval" folder).
 
 
-
-
-## Data Synthesis Examples
-
-### Examples
-![](./readme_pic/g1.jpg)
-![](./readme_pic/g2.jpg)
-
-### Briefs about AutoGeo-100k
-![](./readme_pic/statistics.png)
-
-## Model Geometry Caption
-After you generate data, you can pretrain model on the synthesized geometry captioning data by runing the following script:
-```
-./scripts/v1_5/gc.sh
-```
-This script will tune the model and then evaluate the performance.
-
-1. Hyperparameter of Captioning Pretraining
-
-| Hyperparameter | Global Batch Size | Learning rate | Epochs | Max length | Weight decay |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| LLaVA-v1.5-7B | 64*8 | 6e-5 | 2 | 512 | 0 |
-
-2. Model Parameter Setting of Captioning Pretraining
-
-| Model Parameter Setting| ViT | Projector | Language Module |
-| --- | ---: | ---: | ---: |
-| LLaVA-v1.5-7B | Lora with lora r = 128 and lora alpha = 256 | Tunable | Frozen |
-<!-- | --- | ---: | ---: |
-| LLaVA-v1.5-13B | Lora with lora r = 128 and lora alpha = 256 | Tunable | Frozen |
-| --- | ---: | ---: |
-| MiniGPT4 | Lora with lora r = 64 and lora alpha = 16 | Tunable | Frozen | -->
-
-
-
-## Model Geometry Questioning and Answering
-After you tuned model on the synthesized data, you can further tune the model on QA data by runing:
-```
-./scripts/v1_5/gqa.sh
-```
-
-1. Hyperparameter of Geometry Q&A Tuning
-
-| Hyperparameter | Global Batch Size | Learning rate | Epochs | Max length | Weight decay |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| LLaVA-v1.5-7B(Caption Tuned) | 64*4 | 6e-5 | 3 | 512 | 0 |
-| LLaVA-v1.5-13B(Caption Tuned) | 24*4 | 6e-5 | 1 | 512 | 0 |
-
-2. Model Parameter Setting of Geometry Q&A Tuning
-
-| Model Parameter Setting| ViT | Projector | Language Module |
-| --- | ---: | ---: | ---: |
-| LLaVA-v1.5-7B | Frozen | Tunable | Lora with lora r = 256 and lora alpha = 512 |
-| LLaVA-v1.5-13B | Frozen | Tunable | Lora with lora r = 256 and lora alpha = 512 |
