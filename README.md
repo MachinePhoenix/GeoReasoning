@@ -1,19 +1,17 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
 
-<div align="center" style="line-height: 1;">
-  <a href="https://machinephoenix.github.io/GeoReasoning_blog/"><img alt="Homepage"/></a>
-  <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning"><img alt="Hugging Face"/></a>
-  <a href="https://arxiv.org/abs/2509.15217"><img alt="Paper"/></a>
-</div>
+<p align="center">
+  📑 <a href="https://machinephoenix.github.io/GeoReasoning_blog/">Blog</a>
+  📑 <a href="https://arxiv.org/abs/2509.15217">Paper</a> &nbsp&nbsp | &nbsp&nbsp 
+  🤗 <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp 
+</p>
 
 <div align="center">
   <img src="figs/ex1.png" width="28%" alt="ex1" />
   <img src="figs/ex2.png" width="30%" alt="ex2" />
   <img src="figs/ex3.png" width="25%" alt="ex3" />
 </div>
-<p align="center">
-          🤗 <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2509.15217">Paper</a> &nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://machinephoenix.github.io/GeoReasoning_blog/">Blog</a> 
-</p>
+
 
 
 <div align="center">
