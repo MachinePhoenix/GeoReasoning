@@ -1,5 +1,11 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
 
+<div align="center" style="line-height: 1;">
+  <a href="https://machinephoenix.github.io/GeoReasoning_blog/"><img alt="Homepage"
+    src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/badge.svg?raw=true"/></a>
+  <a href="https://huggingface.co/datasets/ScaleMath/GeoReasoning"><img alt="Hugging Face"
+    src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white"/></a>
+</div>
 
 <div align="center">
   <img src="figs/ex1.png" width="28%" alt="ex1" />
