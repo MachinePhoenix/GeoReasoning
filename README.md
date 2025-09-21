@@ -1,4 +1,6 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
+<script src="https://kit.fontawesome.com/f8ddf9854a.js" crossorigin="anonymous"></script>
+
 <p align="center">
    <a href="https://machinephoenix.github.io/GeoReasoning_blog/"><i class="fas fa-file-pdf" style="color: #e74c3c; margin-right: 5px;"></i> Blog</a> &nbsp&nbsp
   📑 <a href="https://arxiv.org/abs/2509.15217">Paper</a> &nbsp&nbsp
