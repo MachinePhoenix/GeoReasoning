@@ -1,5 +1,5 @@
 # GeoReasoning: Generalizable Geometric Image Caption Synthesis
-<script src="https://kit.fontawesome.com/f8ddf9854a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <p align="center">
    <a href="https://machinephoenix.github.io/GeoReasoning_blog/"><i class="fas fa-file-pdf" style="color: #e74c3c; margin-right: 5px;"></i> Blog</a> &nbsp&nbsp
