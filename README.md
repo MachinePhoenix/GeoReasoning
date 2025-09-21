@@ -41,9 +41,54 @@ This repository contains the official implementation for the GeoReasoning datase
 To be continued soon.
 
 # RLVR
-Our implementation is built upon [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
+Our implementation is built upon [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), a very strong codebase for fine-tuning and RL.
 
-## Quick Start With AutoGeo
+## Quick Start
+We borrow from the quick start of LLaMA-Factory.
+### Installation
+
+> [!IMPORTANT]
+> Installation is mandatory.
+
+#### Install from Source
+
+```bash
+git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
+cd LLaMA-Factory
+pip install -e ".[torch,metrics]" --no-build-isolation
+```
+
+Extra dependencies available: torch, torch-npu, metrics, deepspeed, liger-kernel, bitsandbytes, hqq, eetq, gptq, aqlm, vllm, sglang, galore, apollo, badam, adam-mini, qwen, minicpm_v, openmind, swanlab, dev
+
+#### Install from Docker Image
+
+```bash
+docker run -it --rm --gpus=all --ipc=host hiyouga/llamafactory:latest
+```
+
+This image is built on Ubuntu 22.04 (x86\_64), CUDA 12.4, Python 3.11, PyTorch 2.6.0, and Flash-attn 2.7.4.
+
+Find the pre-built images: https://hub.docker.com/r/hiyouga/llamafactory/tags
+
+Please refer to [build docker](#build-docker) to build the image yourself.
+
+<details><summary>Setting up a virtual environment with <b>uv</b></summary>
+
+Create an isolated Python environment with [uv](https://github.com/astral-sh/uv):
+
+```bash
+uv sync --extra torch --extra metrics --prerelease=allow
+```
+
+Run LLaMA-Factory in the isolated environment:
+
+```bash
+uv run --prerelease=allow llamafactory-cli train examples/train_lora/llama3_lora_pretrain.yaml
+```
+
+</details>
+
+<details><summary>For Windows users</summary>
 
 <details>
 <summary>Example Code (you can run it in ./data/demo.py)</summary>
