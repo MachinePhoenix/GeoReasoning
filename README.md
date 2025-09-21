@@ -126,6 +126,19 @@ Gemma3-Infer contains all necessary codes for SFT and VLLM inference.
 ### scripts_raft & src_raft
 "scripts_raft" folder contains some shell scripts related to the RAFT process under different settings, and you can refer to the .py files. These files are mainly in the "src_raft" folder. But some of them (for example, 'caption_generation_llamafactory_ray.py') are called under the path "LLaMA-Factory/scripts", although we also copy them into the "src_raft" folder.
 
+
+## Citation
+```
+@misc{georeasoning,
+      title={Generalizable Geometric Image Caption Synthesis}, 
+      author={Yue Xin and Wenyuan Wang and Rui Pan and Ruida Wang and Howard Meng and Shizhe Diao and Renjie Pi and Tong Zhang},
+      year={2025},
+      eprint={2509.15217},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI; cs.CV; cs.LG},
+      url={https://arxiv.org/abs/2509.15217}, 
+  }
+```
 ### scripts_eval & src_eval
 "scripts_eval" folder contains some shell scripts related to evaluation on downstream benchmarks (MathVista and MathVerse), and you can refer to the called .py files (mainly in the "src_eval" folder).
 
