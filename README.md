@@ -120,7 +120,7 @@ Gemma3-Infer contains all necessary codes for SFT and VLLM inference.
     │   ├── caption_generation_llamafactory_ray.py
     |   └── caption_reward.py
     └── src_eval
-       └── reasoning_rewarding_ray.py
+        └── reasoning_rewarding_ray.py
 ```
 
 ### scripts_raft & src_raft
