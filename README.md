@@ -145,5 +145,5 @@ Gemma3-Infer contains all necessary codes for SFT and VLLM inference.
 
 ## Acknowledgement
 
-This repo benefits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [VLLM](https://github.com/vllm-project/vllm), and [AlphaGeometry](https://github.com/google-deepmind/alphageometry), and [AutoGeo](https://github.com/AutoGeo-Official/AutoGeo). Thanks for their wonderful works.
+This repo benefits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [VLLM](https://github.com/vllm-project/vllm), [AlphaGeometry](https://github.com/google-deepmind/alphageometry), and [AutoGeo](https://github.com/AutoGeo-Official/AutoGeo). Thanks for their wonderful works.
 
