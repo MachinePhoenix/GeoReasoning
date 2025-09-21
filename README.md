@@ -50,7 +50,7 @@ We borrow from the quick start of LLaMA-Factory.
 > [!IMPORTANT]
 > Installation is mandatory.
 
-#### Install from Source
+<details><summary>Install from Source</summary>
 
 ```bash
 git clone --depth 1 https://github.com/hiyouga/LLaMA-Factory.git
@@ -59,9 +59,9 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 ```
 
 Extra dependencies available: torch, torch-npu, metrics, deepspeed, liger-kernel, bitsandbytes, hqq, eetq, gptq, aqlm, vllm, sglang, galore, apollo, badam, adam-mini, qwen, minicpm_v, openmind, swanlab, dev
+</details>
 
-#### Install from Docker Image
-
+<details><summary>Install from Docker Image</summary>
 ```bash
 docker run -it --rm --gpus=all --ipc=host hiyouga/llamafactory:latest
 ```
@@ -71,6 +71,9 @@ This image is built on Ubuntu 22.04 (x86\_64), CUDA 12.4, Python 3.11, PyTorch 2
 Find the pre-built images: https://hub.docker.com/r/hiyouga/llamafactory/tags
 
 Please refer to [build docker](#build-docker) to build the image yourself.
+</details>
+
+
 
 <details><summary>Setting up a virtual environment with <b>uv</b></summary>
 
@@ -88,10 +91,10 @@ uv run --prerelease=allow llamafactory-cli train examples/train_lora/llama3_lora
 
 </details>
 
-<details><summary>For Windows users</summary>
 
-<details>
-<summary>Example Code (you can run it in ./data/demo.py)</summary>
+
+
+
 
 ```Python
 import sys
