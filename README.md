@@ -113,23 +113,19 @@ Gemma3-Infer contains all necessary codes for SFT and VLLM inference.
 ```
 └── Gemma3-Infer
     ├── scripts_raft
-    │   └── run_raft_*.sh
-    ├── scripts_eval
-    │   ├── eval_mathvista_*.sh
-    |   └── eval_mathverse_*.sh
+        ├── run_coldstart.sh
+    │   └── run_raft.sh
     ├── src_raft
-    │   ├── caption_generation_llamafactory_ray.py
-    |   └── caption_reward.py
-    └── src_eval
-        └── reasoning_rewarding_ray.py
+        ├── caption_generation_llamafactory_ray.py
+        ├── reasoning_rewarding_ray_noStatistics_bystep_updateBest.py
+        ├── add_data_item.py
+        ├── data0_processing.py
+        └── caption_reward.py
 ```
 
-### scripts_raft & src_raft
-"scripts_raft" folder contains some shell scripts related to the RAFT process under different settings, and you can refer to the .py files. These files are mainly in the "src_raft" folder. But some of them (for example, 'caption_generation_llamafactory_ray.py') are called under the path "LLaMA-Factory/scripts", although we also copy them into the "src_raft" folder.
+The scripts_raft folder contains shell files for coldstart (run_coldstart.sh) and RLVR (run_raft.sh), where the latter controls the workflow of RLVR and splits the process into three sub-stages, i.e., caption generation, rewarding, and re-training. 
 
-### scripts_eval & src_eval
-"scripts_eval" folder contains some shell scripts related to evaluation on downstream benchmarks (MathVista and MathVerse), and you can refer to the called .py files (mainly in the "src_eval" folder).
-
+The src_raft folder contains python files, where add_data_item.py and data0_processing.py is the pre-processing called in run_raft.sh. caption_generation_llamafactory_ray.py and reasoning_rewarding_ray_noStatistics_bystep_updateBest.py implement the caption generation and the reward modeling stage of RLVR with the use of VLLM and ray, respectively.
 
 
 ## Citation
