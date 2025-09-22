@@ -125,7 +125,7 @@ Gemma3-Infer contains all necessary codes for SFT and VLLM inference.
 
 The scripts_raft folder contains shell files for coldstart (run_coldstart.sh) and RLVR (run_raft.sh), where the latter controls the workflow of RLVR and splits the process into three sub-stages, i.e., caption generation, rewarding, and re-training. 
 
-The src_raft folder contains python files, where add_data_item.py and data0_processing.py is the pre-processing called in run_raft.sh. caption_generation_llamafactory_ray.py and reasoning_rewarding_ray_noStatistics_bystep_updateBest.py implement the caption generation and the reward modeling stage of RLVR with the use of VLLM and ray, respectively.
+The src_raft folder contains python files, where add_data_item.py and data0_processing.py is the pre-processing called in run_raft.sh. caption_generation_llamafactory_ray.py and reasoning_rewarding_ray_noStatistics_bystep_updateBest.py implement the caption generation and the reward modeling stage of RLVR with the use of VLLM and ray, respectively. caption_reward.py computes the caption reward during the reward modeling process.
 
 
 ## Citation
